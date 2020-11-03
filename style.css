@@ -1,0 +1,76 @@
+/* .a {
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+}
+
+.b {
+    background-color: whitesmoke;
+    height: 50%;
+    width: 50%;
+    transition: transform 1s;
+}
+
+.a:hover .b {
+    background-color: brown;
+    transform: translateX(100%);
+} */
+
+@keyframes example {
+    from {
+        color: rgb(52, 50, 50);
+    }
+    to {
+        color: white;
+        font-size: 120cm;
+    }
+}
+
+.l {
+    font-size: 500%;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {
+        color: rgb(52, 50, 50);
+    }
+    to {
+        color: white;
+        font-size: 100cm;
+    }
+}
+
+.l2 {
+    font-size: 500%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: -1s;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2cm;
+}
+
+body {
+    background-color: rgb(52, 50, 50);
+    color: white;
+}
+
+
+/* .main-form {
+    top: 200px;
+    width: 450px;
+    margin: auto;
+} */
+
+
+/* 
+button {
+    left: 150px;
+    margin: auto;
+    position: relative;
+} */
