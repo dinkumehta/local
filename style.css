@@ -18,11 +18,10 @@
 
 @keyframes example {
     from {
-        color: rgb(52, 50, 50);
+        color: whitesmoke;
     }
     to {
-        color: white;
-        font-size: 120cm;
+        color: rgb(52, 50, 50);
     }
 }
 
@@ -30,16 +29,6 @@
     font-size: 500%;
     animation-name: example;
     animation-duration: 3s;
-}
-
-@keyframes example {
-    from {
-        color: rgb(52, 50, 50);
-    }
-    to {
-        color: white;
-        font-size: 100cm;
-    }
 }
 
 .l2 {
@@ -50,6 +39,7 @@
 }
 
 h1 {
+    margin: auto;
     text-align: center;
     font-weight: 900;
     font-size: 2cm;
