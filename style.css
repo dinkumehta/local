@@ -26,12 +26,20 @@ body {
     right: 1vw;
 }
 
+#icon1 {
+    font-size: 5em;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-top: 160vh;
+}
+
 button {
     /* width: auto; */
     margin: auto;
     position: relative;
     top: 60vh;
-    right: 2vw;
+    right: 1vw;
     /* width: 175px; */
     width: 40vw;
 }
