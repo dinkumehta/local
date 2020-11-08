@@ -3,11 +3,18 @@ body {
     color: white;
 }
 
+#box {
+    margin: auto;
+    position: absolute;
+    top: 10%;
+}
+
 button {
     /* width: auto; */
     margin: auto;
     position: relative;
-    top: 54%;
+    top: 60vh;
+    right: 5vw;
     width: 175px;
 }
 
