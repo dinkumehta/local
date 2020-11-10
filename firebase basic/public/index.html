@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAz_m7Ktgx8zTqwNex5lXGwwuAugH4nWA8",
+            authDomain: "deductive-state-235910.firebaseapp.com",
+            databaseURL: "https://deductive-state-235910.firebaseio.com",
+            projectId: "deductive-state-235910",
+            storageBucket: "deductive-state-235910.appspot.com",
+            messagingSenderId: "266788336575",
+            appId: "1:266788336575:web:cbdbb9c2fe6d6cb708a70a",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <section id="signin">
+                    <button id="singinbtn" class="btn btn-dark">sign-in</button>
+                </section>
+            </div>
+            <div class="col">
+                <section>
+                    <button id="signout" class="btn btn-dark">sign-out</button>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

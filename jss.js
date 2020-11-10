@@ -7,6 +7,7 @@ function nextbtn() {
     while (true) {
         if (photos.length === max) {
             var date = new Date();
+            document.getElementById('abtn').click();
             document.getElementById('message').value = date;
             document.getElementById('b2').click();
 
