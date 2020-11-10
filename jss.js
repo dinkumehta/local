@@ -9,6 +9,7 @@ function nextbtn() {
             var date = new Date();
             document.getElementById('message').value = date;
             document.getElementById('b2').click();
+
             console.log(date)
 
             photos = []
@@ -22,7 +23,19 @@ function nextbtn() {
     }
     // console.log(photos)
     // console.log(last_number)
-    document.getElementById("meme").src = 'images/' + (last_number) + '.jpeg ';
+    var box = document.getElementById("meme");
+    box.style.opacity = 0;
+
+    function sleep(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+    }
+
+    sleep(500).then(() => {
+        console.log(1000);
+        document.getElementById("meme").src = 'images/' + (last_number) + '.jpeg ';
+        document.getElementById("meme").style.opacity = 1;
+    });
+    // document.getElementById("meme").src = 'images/' + (last_number) + '.jpeg ';
 
     //extra code
 
